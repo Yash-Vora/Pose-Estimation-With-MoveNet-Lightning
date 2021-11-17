@@ -6,7 +6,7 @@ For more information just visit the following link:\
 [Click Here](https://www.tensorflow.org/lite/examples/pose_estimation/overview)
 
 ## Demo
-![Animation showing pose estimation](https://miguelrochefort.com/img/posenet.gif)
+![Animation showing pose estimation](movenet_gif.gif)
 
 ## Download MoveNet Lighting Model(Single-Pose)
 Click on this link to download the model from Tensorflow Hub:
