@@ -6,7 +6,13 @@ For more information just visit the following link:\
 [Click Here](https://www.tensorflow.org/lite/examples/pose_estimation/overview)
 
 ## Demo
-![Animation showing pose estimation](movenet_gif.gif)
+<p align="center" width="100%">
+  <img alt='Animation Showing Pose Estimation' src="gifs/movenet_gif.gif">
+</p>
+
+<p align="center" width="100%">
+  <img alt='Animation Showing Pose Estimation With My Web Camera' src="gifs/my_gif.gif">
+</p>
 
 ## Download MoveNet Lighting Model(Single-Pose)
 Click on this link to download the model from Tensorflow Hub:
@@ -25,7 +31,7 @@ _Note:_ It is not mandatory to install tensorflow-gpu but if you have GPU on you
 
 **OR**
 
-Just execute the requirements.txt file and run the following command.
+Just execute the requirements.txt file by running the following command.
 
 ```powershell
 pip install -r requirements.txt
@@ -44,7 +50,7 @@ There are three arguments that you can pass from the cmd/terminal:\
 `--threshold_value - Pass threshold value between 0 to 1`\
 `--output - Path to store the output of video/webcam`
 
-Go to cmd/terminal and write the following commands to run this script.
+Go to cmd/terminal/powershell and write the following commands to run this script.
 
 1. It will detect key points from the video with a threshold value and output path.
 ```powershell
