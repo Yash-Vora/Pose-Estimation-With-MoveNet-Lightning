@@ -54,30 +54,30 @@ Go to cmd/terminal/powershell and write the following commands to run this scrip
 
 1. It will detect key points from the video with a threshold value and output path.
 ```powershell
-python detect.py --path 'Input_Video/video.mp4' --threshold_value 0.4 --output 'Output_Video/output_video.avi'
+python run.py --path 'Input_Video/video.mp4' --threshold_value 0.4 --output 'Output_Video/output_video.avi'
 ```
 
 2. It will detect key points from the video without threshold value(default value is 0.4) and output path.
 ```powershell
-python detect.py --path 'Input_Video/video.mp4'
+python run.py --path 'Input_Video/video.mp4'
 ```
 
 3. It will detect key points from the video with output path and without threshold value(default value is 0.4).
 ```powershell
-python detect.py --path 'Input_Video/video.mp4' --output 'Output_Video/output_video.avi'
+python run.py --path 'Input_Video/video.mp4' --output 'Output_Video/output_video.avi'
 ```
 
 4. It will detect key points from the webcam with a threshold value and output path.
 ```powershell
-python detect.py --threshold_value 0.4 --output 'Output_Video/output_webcam.avi'
+python run.py --threshold_value 0.4 --output 'Output_Video/output_webcam.avi'
 ```
 
 5. It will detect key points from the webcam without threshold value(default value is 0.4) and output path.
 ```powershell
-python detect.py
+python run.py
 ```
 
 6. It will detect key points from webcam with output path and without threshold value(default value is 0.4).
 ```powershell
-python detect.py --output 'Output_Video/output_webcam.avi'
+python run.py --output 'Output_Video/output_webcam.avi'
 ```
