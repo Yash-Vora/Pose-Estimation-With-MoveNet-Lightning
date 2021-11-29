@@ -18,6 +18,13 @@ For more information just visit the following link:\
 Click on this link to download the model from Tensorflow Hub:
 [Download Model](https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/3)
 
+## Cloning
+Just clone this repository to get the code by using the following command.
+
+```powershell
+git clone https://github.com/Yash-Vora/Pose-Estimation-With-MoveNet-Lightining.git
+```
+
 ## Installation
 Create a Virtual Environment & Install all the following required dependencies.
 
@@ -35,13 +42,6 @@ Just execute the requirements.txt file by running the following command.
 
 ```powershell
 pip install -r requirements.txt
-```
-
-## Cloning
-Just clone this repository to get the code by using the following command.
-
-```powershell
-git clone https://github.com/Yash-Vora/Pose-Estimation-With-MoveNet-Lightining.git
 ```
 
 ## Usage
